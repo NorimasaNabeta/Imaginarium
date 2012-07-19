@@ -8,8 +8,17 @@
 
 #import "ImaginariumViewController.h"
 
-// Lecture 8 53:45- Implement scrolling function
-//           58:52- Implement zooming function
+// Lecture 8 Demo Imaginarium(45:20-)
+// *Implement scrolling function(53:45-)
+//   (1) Edit>Embed>ScrollView for ImageView
+//   (2) IBOutlet imageView, scrollView
+//   (3) set contentSize
+// *Implement zooming function(58:52-)
+//   (1) UIScrollViewDelegate
+//   (2) viewForZommingInScrollView
+//   (3) delegate connect between View Controller and ScrollView
+//   (4) set ScrollView property 'Zoom' factors min:0.2 max:5
+//
 @interface ImaginariumViewController () <UIScrollViewDelegate>
 @property (weak, nonatomic) IBOutlet UIScrollView *scrollView;
 @property (weak, nonatomic) IBOutlet UIImageView *imageView;
