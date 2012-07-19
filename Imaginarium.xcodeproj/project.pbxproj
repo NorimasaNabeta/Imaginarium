@@ -16,6 +16,7 @@
 		F2D440BA15B7A13B007F3D5E /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2D440B815B7A13B007F3D5E /* MainStoryboard_iPhone.storyboard */; };
 		F2D440BD15B7A13B007F3D5E /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2D440BB15B7A13B007F3D5E /* MainStoryboard_iPad.storyboard */; };
 		F2D440C015B7A13B007F3D5E /* ImaginariumViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F2D440BF15B7A13B007F3D5E /* ImaginariumViewController.m */; };
+		F2D440C715B7A2C1007F3D5E /* Giants.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F2D440C615B7A2C1007F3D5E /* Giants.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,16 +24,17 @@
 		F2D440A615B7A13B007F3D5E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		F2D440A815B7A13B007F3D5E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		F2D440AA15B7A13B007F3D5E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		F2D440AE15B7A13B007F3D5E /* Imaginarium-Info.plist */ = {isa = PBXFileReference; path = "Imaginarium-Info.plist"; sourceTree = "<group>"; };
+		F2D440AE15B7A13B007F3D5E /* Imaginarium-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Imaginarium-Info.plist"; sourceTree = "<group>"; };
 		F2D440B015B7A13B007F3D5E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		F2D440B215B7A13B007F3D5E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		F2D440B415B7A13B007F3D5E /* Imaginarium-Prefix.pch */ = {isa = PBXFileReference; path = "Imaginarium-Prefix.pch"; sourceTree = "<group>"; };
-		F2D440B515B7A13B007F3D5E /* ImaginariumAppDelegate.h */ = {isa = PBXFileReference; path = ImaginariumAppDelegate.h; sourceTree = "<group>"; };
+		F2D440B415B7A13B007F3D5E /* Imaginarium-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Imaginarium-Prefix.pch"; sourceTree = "<group>"; };
+		F2D440B515B7A13B007F3D5E /* ImaginariumAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ImaginariumAppDelegate.h; sourceTree = "<group>"; };
 		F2D440B615B7A13B007F3D5E /* ImaginariumAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImaginariumAppDelegate.m; sourceTree = "<group>"; };
 		F2D440B915B7A13B007F3D5E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
 		F2D440BC15B7A13B007F3D5E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
-		F2D440BE15B7A13B007F3D5E /* ImaginariumViewController.h */ = {isa = PBXFileReference; path = ImaginariumViewController.h; sourceTree = "<group>"; };
+		F2D440BE15B7A13B007F3D5E /* ImaginariumViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ImaginariumViewController.h; sourceTree = "<group>"; };
 		F2D440BF15B7A13B007F3D5E /* ImaginariumViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImaginariumViewController.m; sourceTree = "<group>"; };
+		F2D440C615B7A2C1007F3D5E /* Giants.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Giants.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +83,7 @@
 			children = (
 				F2D440B515B7A13B007F3D5E /* ImaginariumAppDelegate.h */,
 				F2D440B615B7A13B007F3D5E /* ImaginariumAppDelegate.m */,
+				F2D440C615B7A2C1007F3D5E /* Giants.jpg */,
 				F2D440B815B7A13B007F3D5E /* MainStoryboard_iPhone.storyboard */,
 				F2D440BB15B7A13B007F3D5E /* MainStoryboard_iPad.storyboard */,
 				F2D440BE15B7A13B007F3D5E /* ImaginariumViewController.h */,
@@ -156,6 +159,7 @@
 				F2D440B115B7A13B007F3D5E /* InfoPlist.strings in Resources */,
 				F2D440BA15B7A13B007F3D5E /* MainStoryboard_iPhone.storyboard in Resources */,
 				F2D440BD15B7A13B007F3D5E /* MainStoryboard_iPad.storyboard in Resources */,
+				F2D440C715B7A2C1007F3D5E /* Giants.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
