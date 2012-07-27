@@ -14,7 +14,7 @@
 //   (2) IBOutlet imageView, scrollView
 //   (3) set contentSize
 // *Implement zooming function(58:52-)
-//   (1) UIScrollViewDelegate
+//   (1) <UIScrollViewDelegate>
 //   (2) viewForZommingInScrollView
 //   (3) delegate connect between View Controller and ScrollView
 //   (4) set ScrollView property 'Zoom' factors min:0.2 max:5
@@ -37,11 +37,6 @@
     
 }
 
-#pragma mark - UIScrollViewDelegate
-- (UIView*) viewForZoomingInScrollView:(UIScrollView *)scrollView  
-{
-    return self.imageView;
-}
 
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation
 {
@@ -57,4 +52,11 @@
     [self setScrollView:nil];
     [super viewDidUnload];
 }
+
+#pragma mark - UIScrollViewDelegate
+- (UIView*) viewForZoomingInScrollView:(UIScrollView *)scrollView
+{
+    return self.imageView;
+}
+
 @end
